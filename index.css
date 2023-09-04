@@ -199,6 +199,11 @@ html[data-theme="dark"] {
 }
 
 @media (max-width: 690px) {
+
+	.hide-on-mobile {
+		display:none!important;
+	}
+	
 	a.desktop {
 	margin-bottom:20px;
 	}
