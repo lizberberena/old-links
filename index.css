@@ -189,6 +189,11 @@ html[data-theme="dark"] {
 }
 
 @media (min-width: 691px) {
+
+	.hide-on-mobile {
+		display:none!important;
+	}
+	
 	a.desktop {
 	margin-bottom:20px;
 	}
@@ -198,11 +203,7 @@ html[data-theme="dark"] {
 	}
 }
 
-@media (max-width: 690px) {
-
-	.hide-on-mobile {
-		display:none!important;
-	}
+@media (max-width: 690px) {	
 	
 	a.desktop {
 	margin-bottom:20px;
