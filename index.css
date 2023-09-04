@@ -133,6 +133,10 @@ text-decoration:none!important;
         background-color:var(--bio);
 }
 
+#bio a {
+text-decoration:underline;
+}
+
 .hidden {
 	display:none;
 }
